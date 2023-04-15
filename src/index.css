@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgb(230, 230, 230) url("../public//bg7.jpg");  
+}
+
+html, body {
+  height: 100%;
+}
+
+.defaultAppButton {
+  background-color: #FFC6B6;
+  margin-top: 40px;
+  padding: 0 60px;
+  height: 50px;
+  border-radius: 7px;
+  border: 2px dashed rgb(71, 71, 71);
+  color: rgb(71, 71, 71);
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: 1s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.defaultAppButton:hover {
+  background-color: #FA8072;
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgb(71, 71, 71);
+}
+
+h2 {
+  font-size: 3em;
+}
+
+footer {
+  position: fixed;
+  background: rgb(230, 230, 230) url("../public//bg7.jpg") fixed;  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+}
